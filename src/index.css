@@ -103,6 +103,7 @@ input:focus {
 
 .card {
   margin: 1rem;
+  position: relative;
 }
 
 .card img {
@@ -134,4 +135,30 @@ input:focus {
   .card {
     width: calc(20% - 2rem);
   }
+}
+
+
+.button-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-edit {
+  display: flex;
+}
+
+.price-edit input {
+  font-size: 1em;
+  padding: 0 0.25rem;
+  margin-top: -2px;
+}
+
+.delete-item {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  background: white;
+  padding: 5px;
+  line-height: 1;
+  margin-top: 0!important;
 }

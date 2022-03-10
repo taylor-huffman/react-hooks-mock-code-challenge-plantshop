@@ -4,7 +4,6 @@ function Search({ search, setSearch }) {
 
   function handleOnChange(value) {
     setSearch(value)
-    console.log(search)
   }
 
   return (
